@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/fuckingdate"
+        android:layout_width="226dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="96dp"
+        android:layout_marginBottom="17dp"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/producttSerialNumber"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/applicationTitle" />
+
+    <EditText
+        android:id="@+id/clientName"
+        android:layout_width="283dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="67dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="61dp"
+        android:inputType="textPersonName"
+        android:hint="@string/CustomerName"
+        android:textColor="@android:color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/producttSerialNumber" />
+
+    <EditText
+        android:id="@+id/producttSerialNumber"
+        android:layout_width="282dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="16dp"
+        android:ems="10"
+        android:hint="@string/Serial"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:textColor="@android:color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fuckingdate" />
+
+    <TextView
+        android:id="@+id/applicationTitle"
+        android:layout_width="376dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="19dp"
+        android:fontFamily="@font/alfa_slab_one"
+        android:text="@string/ssdTitle"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <EditText
+        android:id="@+id/clientPhone"
+        android:inputType="phone"
+        android:layout_width="282dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="67dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="62dp"
+        android:hint="@string/Client_phone_Number"
+        android:textColor="@android:color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/clientName" />
+
+    <EditText
+        android:id="@+id/purchaseDate"
+        android:layout_width="281dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="18dp"
+        android:ems="10"
+        android:hint="@string/Dateofpurchase"
+        android:inputType="date"
+        android:textColor="@android:color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/clientPhone" />
+
+    <EditText
+        android:id="@+id/fuckingagentname"
+        android:layout_width="282dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="15dp"
+        android:hint="@string/agentName"
+        android:inputType="textPersonName"
+        android:textColor="@android:color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/purchaseDate" />
+
+    <EditText
+        android:id="@+id/agentPhone"
+        android:layout_width="282dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="64dp"
+        android:ems="10"
+        android:hint="@string/fuckingagentphonenumber"
+        android:inputType="phone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fuckingagentname" />
+
+    <TextView
+        android:id="@+id/fucking_about"
+        android:layout_width="0dp"
+        android:layout_height="17dp"
+        android:layout_marginStart="163dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="163dp"
+        android:layout_marginBottom="52dp"
+        android:text="@string/about"
+        android:textAlignment="center"
+        android:textColor="#1A1A1A"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_Save_toDataBase" />
+
+    <Button
+        android:id="@+id/button_Save_toDataBase"
+        android:layout_width="132dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="67dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="@string/btn_save"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/agentPhone" />
+
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="14dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

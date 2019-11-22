@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">SSD Warranty</string>
+    <string name="ssdTitle">Smart Sleep Device Warranty Registration</string>
+    <string name="Serial">Products Serial Number</string>
+    <string name="version">Version 1.0.1</string>
+    <string name="byCopyright">By Braintech Sdn Bhd</string>
+    <string name="CustomerName">Client Name</string>
+    <string name="Client_phone_Number">Client Phone Number</string>
+    <string name="date">Date</string>
+    <string name="agentName">Agent Name</string>
+    <string name="Dateofpurchase">Purchased Date (DD/MM/YYYY)</string>
+    <string name="clientAddr">Client Address</string>
+    <string name="fuckingagentphonenumber">Agent Phone Number</string>
+    <string name="about">About</string>
+    <string name="dev"><text>This Application Developed <br /></text>by John Melody Melissa @ Braintech Sdn Bhd. <br />
+        Email <a href="emailto:john@braintechgroup.com">john@braintechgroup.com</a> the developer for more.</string>
+    <string name="btn_save">Save Data</string>
+</resources>

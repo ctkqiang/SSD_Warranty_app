@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "684805553810",
+    "firebase_url": "https://ssdwarra.firebaseio.com",
+    "project_id": "ssdwarra",
+    "storage_bucket": "ssdwarra.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:684805553810:android:1ceb8e306df0044626f04b",
+        "android_client_info": {
+          "package_name": "com.johnmelodyme.ssdwaraanty"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "684805553810-oprihff36ipv66ps2gunoumbraragchh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.johnmelodyme.ssdwaraanty",
+            "certificate_hash": "d8fbb0da17ff5ecb20b1a97058089b83e80bc51b"
+          }
+        },
+        {
+          "client_id": "684805553810-6uhu73b684omm0ahb4thm9dapfblbisu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9Kr7z-8yo50C6ojQCxGb8RtBiQesN49w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "684805553810-6uhu73b684omm0ahb4thm9dapfblbisu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
