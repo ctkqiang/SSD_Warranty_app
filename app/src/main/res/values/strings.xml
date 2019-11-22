@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">SSD Warranty</string>
+    <string name="app_name">StarLabs Warranty</string>
     <string name="ssdTitle">Smart Sleep Device Warranty Registration</string>
     <string name="Serial">Products Serial Number</string>
     <string name="version">Version 1.0.1</string>
@@ -14,5 +14,15 @@
     <string name="about">About</string>
     <string name="dev"><text>This Application Developed <br /></text>by John Melody Melissa @ Braintech Sdn Bhd. <br />
         Email <a href="emailto:john@braintechgroup.com">john@braintechgroup.com</a> the developer for more.</string>
-    <string name="btn_save">Save Data</string>
+    <string name="btn_save">Register</string>
+    <string name="terms">I accept the terms and condition.</string>
+
+    <string name="termone">1.Warranty is NOT applicable if the product malfunction due to the user’s fault EXCEPT
+  for manufacturing defect.</string>
+    <string name="termtwo">2.Please keep the warranty card safely and do not misplace it.</string>
+    <string name="termthree">3.Warranty is applicable ONLY for 1 year.</string>
+    <string name="copyright"> All Right Reserved ©  Star Labs Biosience Sdn Bhd Copyright 2019 </string>
+    <string name="back"> Back</string>
+
+    <string name="purchasedate">Purchase Date</string>
 </resources>

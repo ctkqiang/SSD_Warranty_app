@@ -4,11 +4,11 @@ android {
     compileSdkVersion 29
     buildToolsVersion "29.0.2"
     defaultConfig {
-        applicationId "com.johnmelodyme.ssdwaraanty"
-        minSdkVersion 21
+        applicationId "com.johnmelodyme.ssd"
+        minSdkVersion 19
         targetSdkVersion 29
         versionCode 1
-        versionName "1.0"
+        versionName "0.1"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
@@ -30,7 +30,7 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation 'androidx.appcompat:appcompat:1.1.0'
     implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
-    implementation 'com.google.firebase:firebase-analytics:17.2.0'
+
     // implementation 'com.google.firebase:firebase-database:19.1.0'
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
@@ -39,8 +39,6 @@ dependencies {
     implementation 'com.google.zxing:core:3.2.1'
     implementation 'com.google.firebase:firebase-database:19.2.0'
     implementation 'com.firebaseui:firebase-ui-database:6.0.2'
-
+    implementation 'com.google.firebase:firebase-analytics:17.2.1'
 }
-
-
 apply plugin: 'com.google.gms.google-services'

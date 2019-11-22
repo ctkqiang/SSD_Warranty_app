@@ -3,7 +3,62 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:backgroundTint="@android:color/white"
     tools:context=".termsandconditionlawhateverla">
 
+    <TextView
+        android:id="@+id/termONE"
+        android:layout_width="330dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="168dp"
+        android:text="@string/termone"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/termTWO"
+        android:layout_width="330dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/termtwo"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/termONE" />
+
+    <TextView
+        android:id="@+id/termThree"
+        android:layout_width="330dp"
+        android:layout_height="19dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="32dp"
+        android:text="@string/termthree"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/termTWO"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/fuckingbackbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="266dp"
+        android:layout_marginBottom="50dp"
+        android:backgroundTint="@android:color/white"
+        android:text="@string/back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/termThree" />
 </androidx.constraintlayout.widget.ConstraintLayout>
