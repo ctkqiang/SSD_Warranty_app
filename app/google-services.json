@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "120800356843",
+    "firebase_url": "https://ssdwarranty-8a6bc.firebaseio.com",
+    "project_id": "ssdwarranty-8a6bc",
+    "storage_bucket": "ssdwarranty-8a6bc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:120800356843:android:77a661524ca8653e8511ae",
+        "android_client_info": {
+          "package_name": "com.johnmelodyme.ssd"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "120800356843-ab1je52hv0u78lah34fhi1krmbb693dc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDrbzrWJfzEqPDGdY8LASLeflN86q1hgE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "120800356843-ab1je52hv0u78lah34fhi1krmbb693dc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
