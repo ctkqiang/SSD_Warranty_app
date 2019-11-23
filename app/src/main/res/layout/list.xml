@@ -8,50 +8,150 @@
 
     <TextView
         android:id="@+id/ID"
-        android:layout_width="375dp"
-        android:layout_height="33dp"
+        android:layout_width="207dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="9dp"
         android:text="TextView"
-        app:layout_constraintStart_toStartOf="@+id/clientname"
-        tools:layout_editor_absoluteY="16dp" />
+        app:layout_constraintBottom_toTopOf="@+id/clientname"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/pp"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/agentname"
-        android:layout_width="375dp"
-        android:layout_height="33dp"
+        android:layout_width="205dp"
+        android:layout_height="29dp"
+        android:layout_marginEnd="11dp"
         android:text="TextView"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="181dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/pp6"
+        app:layout_constraintTop_toBottomOf="@+id/agentphone" />
 
     <TextView
         android:id="@+id/agentphone"
-        android:layout_width="375dp"
-        android:layout_height="33dp"
+        android:layout_width="208dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="195dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="1dp"
         android:text="TextView"
-        app:layout_constraintStart_toStartOf="@+id/agentname"
-        tools:layout_editor_absoluteY="148dp" />
+        app:layout_constraintBottom_toTopOf="@+id/agentname"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/purchasedate" />
 
     <TextView
         android:id="@+id/purchasedate"
-        android:layout_width="375dp"
-        android:layout_height="33dp"
+        android:layout_width="208dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="10dp"
         android:text="TextView"
-        app:layout_constraintStart_toStartOf="@+id/agentphone"
-        tools:layout_editor_absoluteY="115dp" />
+        app:layout_constraintBottom_toTopOf="@+id/agentphone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/pp4"
+        app:layout_constraintTop_toBottomOf="@+id/clientphone" />
 
     <TextView
         android:id="@+id/clientphone"
-        android:layout_width="375dp"
-        android:layout_height="33dp"
+        android:layout_width="208dp"
+        android:layout_height="36dp"
+        android:layout_marginEnd="8dp"
         android:text="TextView"
-        app:layout_constraintStart_toStartOf="@+id/purchasedate"
-        tools:layout_editor_absoluteY="82dp" />
+        app:layout_constraintBottom_toTopOf="@+id/purchasedate"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/pp3"
+        app:layout_constraintTop_toBottomOf="@+id/clientname" />
 
     <TextView
         android:id="@+id/clientname"
-        android:layout_width="375dp"
-        android:layout_height="33dp"
+        android:layout_width="206dp"
+        android:layout_height="32dp"
+        android:layout_marginEnd="10dp"
         android:text="TextView"
-        app:layout_constraintStart_toStartOf="@+id/clientphone"
-        tools:layout_editor_absoluteY="49dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/pp2"
+        app:layout_constraintTop_toBottomOf="@+id/ID" />
+
+    <TextView
+        android:id="@+id/pp"
+        android:layout_width="156dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="14dp"
+        android:text="@string/id"
+        app:layout_constraintBottom_toTopOf="@+id/pp2"
+        app:layout_constraintEnd_toStartOf="@+id/ID"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/pp2"
+        android:layout_width="156dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="39dp"
+        android:text="@string/clientName"
+        app:layout_constraintEnd_toStartOf="@+id/clientname"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pp" />
+
+    <TextView
+        android:id="@+id/pp3"
+        android:layout_width="156dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="2dp"
+        android:text="@string/clientphone"
+        app:layout_constraintBottom_toTopOf="@+id/pp4"
+        app:layout_constraintEnd_toStartOf="@+id/clientphone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pp2" />
+
+    <TextView
+        android:id="@+id/pp4"
+        android:layout_width="156dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="2dp"
+        android:text="@string/purchasedate"
+        app:layout_constraintBottom_toTopOf="@+id/pp5"
+        app:layout_constraintEnd_toStartOf="@+id/purchasedate"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pp3" />
+
+    <TextView
+        android:id="@+id/pp5"
+        android:layout_width="156dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:text="@string/agentphone"
+        app:layout_constraintEnd_toStartOf="@+id/purchasedate"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pp4" />
+
+    <TextView
+        android:id="@+id/pp6"
+        android:layout_width="156dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:text="@string/agentname"
+        app:layout_constraintEnd_toStartOf="@+id/agentname"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pp5" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="411dp"
+        android:layout_height="15dp"
+        android:text="@string/line"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="217dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

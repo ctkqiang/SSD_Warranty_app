@@ -22,20 +22,14 @@ public class MainActivity extends AppCompatActivity {
                 new recyclerview_config().setConfig(RV, MainActivity.this,
                         SSD_DATA, keys);
             }
-
             @Override
             public void DataIsInserted() {
-
             }
-
             @Override
             public void DataIsUpdated() {
-
             }
-
             @Override
             public void DataIsDeleted() {
-
             }
         });
     }
