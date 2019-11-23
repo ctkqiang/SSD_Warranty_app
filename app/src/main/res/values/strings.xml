@@ -1,10 +1,10 @@
 <resources>
-    <string name="app_name">SSD WARRANTY TECHNICAL TEAM</string>
+    <string name="app_name">SSD Database</string>
     <string name="id">Product Id: </string>
     <string name="line">---------------------------------------------------------------------------------------------------</string>
-    <string name="clientName">Client Name</string>
-    <string name="clientphone">Client Phone</string>
-    <string name="purchasedate">Purchase Date</string>
-    <string name="agentphone">Agent Phone</string>
-    <string name="agentname"> Agent Name</string>
+    <string name="clientName">Client Name: </string>
+    <string name="clientphone">Client Phone: </string>
+    <string name="purchasedate">Purchase Date: </string>
+    <string name="agentphone">Agent Phone: </string>
+    <string name="agentname"> Agent Name: </string>
 </resources>
